@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "airflow_testing_error"
+version = "0.1.0"
+description = ""
+authors = ["linooohon <linooohon@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+apache-airflow = "^2.2.3"
+apache-airflow-providers-slack = "^4.2.0"
+PyMySQL = "^1.0.2"
+yfinance = "^0.1.70"
+python-dotenv = "^0.19.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
