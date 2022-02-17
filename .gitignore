@@ -5,3 +5,13 @@ webserver_config.py
 .env
 *.pyc
 __pycache__/
+
+airflow-scheduler.err
+airflow-scheduler.log
+airflow-scheduler.out
+airflow-scheduler.pid
+airflow-webserver-monitor.pid
+airflow-webserver.err
+airflow-webserver.log
+airflow-webserver.out
+airflow.db
